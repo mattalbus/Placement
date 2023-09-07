@@ -4,7 +4,7 @@ import SwiftUI
 /// Layout-specific properties of a layout container.
 public struct PlacementLayoutProperties {
     /// The orientation of the containing stack-like container.
-    var stackOrientation: Axis?
+    public var stackOrientation: Axis?
     
     /// Creates a default set of properties.
     public init() {
